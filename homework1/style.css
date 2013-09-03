@@ -1,0 +1,46 @@
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #E6E6DC;
+    border:solid;
+	border-color: #E6E6DC;
+    
+}
+
+#header {
+	background-color: #E6E6DC; 
+	padding: 15px;
+}
+
+#info {
+	margin: auto;
+	 }
+
+#footer {
+	clear: right; /* starts the footer below the floated content */
+	padding: 15px;
+	background: #E6E6DC;
+	
+}
+
+body{
+	font-family: Georgia; 
+	/* font-size: small; */
+	margin: auto;
+	padding: 0;
+}
+html{
+	background-color: #DC143C;
+}
+thead {
+  float: left;   
+}
+
+thead th {
+  display: block;   
+}
+
+tbody {
+  float: right;   
+}
