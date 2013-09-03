@@ -10,7 +10,7 @@ def hello():
 # Assignment 1: A haphazard page showing the most common HTML tags
 @app.route('/assignment1')
 def assignment_1():
-    return redirect(url_for('static', filename='homework1\homework1.html'))
+    return redirect(url_for('static', filename='homework1/homework1.html'))
 # Assignment 3: A haphazard page showing the most common HTML tags
 @app.route('/assignment3')
 def assignment_3():
