@@ -5,26 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return redirect(url_for('static', filename='homepage.html'))
-
-# Assignment 1: A haphazard page showing the most common HTML tags
-@app.route('/assignment1')
-def assignment_1():
-    return redirect(url_for('static', filename='homework1/homework1.html'))
-# Assignment 3: A haphazard page showing the most common HTML tags
-@app.route('/assignment3')
-def assignment_3():
-    return redirect(url_for('static', filename='assignment3.html'))
-
-@app.route('/assignment4')
-def assignment4():
-    return redirect(url_for('static', filename='assignment4.html'))
-@app.route('/assignment5')
-def assignment5():
-    return redirect(url_for('static', filename='assignment5.html'))
-@app.route('/assignment6')
-def assignment6():
-    return redirect(url_for('static', filename='assignment6.html'))
+    return redirect(url_for('static', filename='homepage1.html'))
 
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
